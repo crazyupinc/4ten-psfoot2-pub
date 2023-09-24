@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./header.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto Sans:wght@400;500;600;700;800&display=swap"
+    />
+  </head>
+  <body>
+    <div class="header2">
+      <div class="container">
+        <div class="header-left">
+          <img
+            class="img-headerlogo-icon"
+            alt=""
+            src="./public/img-headerlogo@2x.png"
+          />
+
+          <img
+            class="img-onespec-icon"
+            alt=""
+            src="./public/img-onespec@2x.png"
+          />
+        </div>
+        <button class="btn-lsnmall" id="btnLsnmall">
+          <div class="dev">프로스펙스닷컴Dev</div>
+        </button>
+      </div>
+    </div>
+
+    <script>
+      var btnLsnmall = document.getElementById("btnLsnmall");
+      if (btnLsnmall) {
+        btnLsnmall.addEventListener("click", function () {
+          window.open("https://adm.prospecs.com/");
+        });
+      }
+      </script>
+  </body>
+</html>

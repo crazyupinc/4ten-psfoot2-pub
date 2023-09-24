@@ -1,0 +1,113 @@
+.img-headerlogo-icon,
+.img-onespec-icon {
+  align-self: stretch;
+  position: relative;
+  max-height: 100%;
+  width: 92px;
+  object-fit: cover;
+}
+.img-onespec-icon {
+  width: 145px;
+}
+.header-left {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-7xl);
+}
+.dev {
+  position: relative;
+  font-size: 14px;
+  font-family: var(--font-noto-sans);
+  color: var(--color-white);
+  text-align: left;
+}
+.btn-lsnmall {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-9xs) var(--padding-3xs);
+  background-color: var(--color-black);
+  border-radius: 13px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.container,
+.header2 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.container {
+  height: 120px;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 42px 36px;
+  box-sizing: border-box;
+  max-width: 1600px;
+}
+.header2 {
+  position: relative;
+  background-color: var(--color-white);
+  flex-direction: column;
+  justify-content: flex-start;
+  min-width: 370px;
+}
+@media screen and (max-width: 960px) {
+  .header-left {
+    gap: var(--gap-xl);
+  }
+  .dev {
+    font-size: var(--font-size-xs);
+  }
+  .container {
+    padding-left: var(--padding-11xl);
+    padding-right: var(--padding-11xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 768px) {
+  .header-left {
+    gap: var(--gap-base);
+  }
+  .btn-lsnmall,
+  .container {
+    display: flex;
+  }
+  .container {
+    height: 80%;
+    padding: var(--padding-13xl) 26px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 480px) {
+  .img-headerlogo-icon {
+    width: 62px;
+  }
+  .img-onespec-icon {
+    width: 100px;
+  }
+  .header-left {
+    align-self: stretch;
+    height: auto;
+    gap: 6px;
+  }
+  .dev {
+    font-size: var(--font-size-xs);
+  }
+  .btn-lsnmall {
+    display: none;
+    padding-left: var(--padding-9xs);
+    padding-right: var(--padding-9xs);
+    box-sizing: border-box;
+  }
+  .container {
+    height: 56px;
+    gap: 972px;
+    padding: 16px 13px;
+    box-sizing: border-box;
+  }
+}

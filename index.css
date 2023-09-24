@@ -1,0 +1,29 @@
+.header1 {
+  position: relative;
+  font-size: var(--font-size-5xl);
+  font-family: var(--font-noto-sans);
+  color: var(--color-black);
+  text-align: left;
+}
+.header {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-xl);
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.index1 {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-81xl) var(--padding-21xl);
+  box-sizing: border-box;
+  gap: var(--gap-21xl);
+}
