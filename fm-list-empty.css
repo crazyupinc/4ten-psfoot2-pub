@@ -1,7 +1,7 @@
-.p {
+.p7 {
   margin: 0;
 }
-.div {
+.div5 {
   flex: 1;
   position: relative;
   font-weight: 600;
@@ -13,7 +13,7 @@
   align-items: flex-start;
   justify-content: flex-start;
 }
-.div1 {
+.div6 {
   position: relative;
   font-weight: 600;
 }
@@ -32,7 +32,7 @@
   border-bottom: 2px solid var(--color-black);
   color: var(--color-black);
 }
-.div3,
+.div8,
 .tabs {
   align-self: stretch;
 }
@@ -46,7 +46,7 @@
   font-size: var(--font-size-lg);
   color: #777;
 }
-.div3 {
+.div8 {
   position: relative;
   font-size: 20px;
   font-weight: 600;
@@ -58,12 +58,12 @@
   margin: 0;
   padding-left: 21px;
 }
-.div4 {
+.div9 {
   font-size: var(--font-inherit);
   font-family: var(--font-inherit);
 }
-.div4,
-.div5 {
+.div10,
+.div9 {
   align-self: stretch;
   position: relative;
 }
@@ -74,12 +74,12 @@
   justify-content: flex-start;
   gap: var(--gap-base);
 }
-.b,
+.b3,
 .btn-main,
 .guide {
   align-self: stretch;
 }
-.b {
+.b3 {
   position: relative;
   font-size: var(--font-size-base);
   font-family: var(--font-noto-sans);
@@ -104,24 +104,24 @@
   gap: var(--gap-21xl);
   max-width: 480px;
 }
-.content,
+.content1,
 .custom-limit,
 .fm-list-empty2,
-.main {
+.main1 {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
 }
-.content {
+.content1 {
   align-self: stretch;
   align-items: center;
   font-size: var(--font-size-base);
 }
 .fm-list-empty2,
-.main {
+.main1 {
   width: 100%;
 }
-.main {
+.main1 {
   background-color: rgba(255, 255, 255, 0.01);
   overflow: hidden;
   align-items: flex-start;
@@ -140,7 +140,7 @@
   font-family: var(--font-noto-sans);
 }
 @media screen and (max-width: 768px) {
-  .main,
+  .main1,
   .tabs {
     box-sizing: border-box;
   }
@@ -149,7 +149,7 @@
     padding-top: 0;
     padding-right: var(--padding-21xl);
   }
-  .main {
+  .main1 {
     padding-left: var(--padding-13xl);
     padding-right: var(--padding-13xl);
   }
@@ -165,11 +165,11 @@
   }
   .btn-main,
   .custom-limit,
-  .main {
+  .main1 {
     padding-top: var(--padding-xl);
     box-sizing: border-box;
   }
-  .main {
+  .main1 {
     padding-left: var(--padding-xl);
     padding-right: var(--padding-xl);
   }
