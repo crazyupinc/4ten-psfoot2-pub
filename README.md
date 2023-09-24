@@ -1,5 +1,5 @@
 
-  # lsn-onespec
+  # 4ten-psfoot2-pub
 
   Note: Please ensure you have installed <code><a href="https://nodejs.org/en/download/">nodejs</a></code>
 
